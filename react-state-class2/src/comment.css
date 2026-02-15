@@ -1,0 +1,12 @@
+.commentBox{
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.comment{
+    border: 1px solid pink ;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
