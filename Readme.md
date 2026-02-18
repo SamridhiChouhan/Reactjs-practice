@@ -1,1 +1,1 @@
-This repo contains my daily practice of React concepts.
+This repos contains my daily practice of React concepts.
