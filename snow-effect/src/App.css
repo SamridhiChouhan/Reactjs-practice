@@ -61,15 +61,19 @@ nav {
   align-items: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 7rem;
+  /* animation: visible 1s ease-in; */
 }
 
 .hero-text h1 {
   font-size: 7rem;
   line-height: 4.5rem;
+  animation: visible 1.5s ease-in 0.5s;
 }
 .hero-text p {
   font-size: 2.5rem;
   margin-left: 15rem;
+  animation: visible 2s ease-in 1s forwards;
+  opacity: 0;
 }
 
 input {
@@ -153,4 +157,13 @@ input::placeholder {
   /* background-image: url("./bg.png"); */
   /* background-size: cover; */
   background-color: rgb(34, 47, 64);
+}
+
+@keyframes visible {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
