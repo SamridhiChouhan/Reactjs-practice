@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./bg.png");
+  background-size: cover;
+}
+
+nav {
+  /* padding: 0 2rem; */
+  width: 100vw;
+  height: 4rem;
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 2rem; */
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  /* padding: 0 2rem; */
+  margin: 0 3rem;
+  /* color: white; */
+}
+
+.btn {
+  margin: 0 3rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+  border: 2px solid white;
+  border-radius: 0.2rem;
+  /* backdrop-filter: 8rem/; */
+  color: white;
+  background: rgba(255, 255, 255, 0.123);
+  font-weight: 700;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+  margin: 0 1.3rem;
+}
+
+.fa-plane-departure {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+.hero-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 7rem;
+}
+
+.hero-text h1 {
+  font-size: 7rem;
+  line-height: 4.5rem;
+}
+.hero-text p {
+  font-size: 2.5rem;
+  margin-left: 15rem;
+}
+
+input {
+  /* margin-top: 4rem; */
+  margin: 1rem 3rem;
+  margin-top: 5rem;
+
+  padding: 0.7rem 1.5rem;
+  font-size: 0.9rem;
+  /* border: 2px solid white; */
+  border-radius: 0.2rem;
+  /* backdrop-filter: 8rem/; */
+  color: white;
+  background: rgba(255, 255, 255, 0.278);
+  /* font-weight: 700; */
+  width: 70rem;
+  border: none;
+}
+
+input::placeholder {
+  color: rgb(236, 235, 235);
+}
+
+.hero-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-panel {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: antiquewhite; */
+  width: 84.5%;
+  margin-top: 1rem;
+  /* margin-bottom: 10rem; */
+}
+
+.card1 {
+  background-color: white;
+  /* background-color: pink; */
+  width: 43%;
+  border-radius: 0.2rem;
+}
+
+.card2 {
+  /* background-color: aqua; */
+  background-color: white;
+  border-radius: 0.2rem;
+
+  width: 55%;
+}
+
+.card-img1 {
+  height: 15rem;
+  width: 100%;
+  background-image: url("./husky.jpg");
+  background-size: cover;
+
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+}
+.card-img2 {
+  height: 15rem;
+  width: 100%;
+  background-image: url("./card.jpg");
+  background-size: cover;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+}
+
+.card-text {
+  padding: 1rem 2rem;
+}
+.card-text p {
+  font-size: 0.95rem;
+}
+.container-2 {
+  height: 100vh;
+  width: 100%;
+  /* background-image: url("./bg.png"); */
+  /* background-size: cover; */
+  background-color: rgb(34, 47, 64);
+}
